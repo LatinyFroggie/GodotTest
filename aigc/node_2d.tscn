@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://biiijpb6qiree" path="res://movement.gd" id="1_0e48y"]
 [ext_resource type="Texture2D" uid="uid://bppk7udmicb2u" path="res://addons/kenney_prototype_textures/green/texture_01.png" id="2_0e48y"]
-[ext_resource type="Texture2D" uid="uid://b520f1dfcoa4" path="res://addons/kenney_prototype_textures/orange/texture_01.png" id="3_epypp"]
+[ext_resource type="Texture2D" uid="uid://bixmdli3dlcnb" path="res://bridge.png" id="3_epypp"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_epypp"]
 size = Vector2(132, 132)
@@ -32,8 +32,13 @@ shape = SubResource("RectangleShape2D_epypp")
 [node name="Area2D" type="Area2D" parent="."]
 
 [node name="Sprite2D" type="Sprite2D" parent="Area2D"]
+light_mask = 512
+visibility_layer = 512
+z_index = -6
+z_as_relative = false
+y_sort_enabled = true
 position = Vector2(336, 253)
-scale = Vector2(0.128906, 0.128418)
+scale = Vector2(300, 10)
 texture = ExtResource("3_epypp")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Area2D"]
