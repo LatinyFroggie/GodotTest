@@ -6,4 +6,4 @@ func _ready():
 func movement():
 	push_error("Bruh")
 	if Input.is_key_pressed(KEY_W):
-		print("bruh")
+		push_error("bruh")
