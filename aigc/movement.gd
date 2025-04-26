@@ -1,9 +1,11 @@
 extends CharacterBody2D
 var speedMult = 300
+var delta = 1
 func _ready():
-	movement()
-	push_error("Bruh1")
-func movement():
-	push_error("Bruh2")
-	if Input.is_key_pressed(up):
-		push_error("bruh3")
+	_process(delta)
+
+func _process(delta):
+	#push_error("Bruh2")
+	if Input.is_physical_key_pressed(KEY_A):
+		push_error("Bruh")
+	
