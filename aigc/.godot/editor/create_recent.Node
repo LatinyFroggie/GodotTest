@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+Area2D
+=======
 CollisionShape2D
+>>>>>>> 70209970e5e255afe8d29c1b0a8cc9ba1faf9b45
 Sprite2D
 CharacterBody2D
 AnimatedSprite2D
