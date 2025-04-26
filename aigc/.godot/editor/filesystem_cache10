@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1745691525
+::res://::1745694032
 icon.svg::CompressedTexture2D/CompressedTexture2D::2274677164701052632::1745691073::1745691526::1::::<><><>0<>0<>df0ac49b50b2120d577453623fd4b2f1<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-node_2d.gd::GDScript::1211253902006093227::1745691073::0::1::::<>Node2D<><>0<>0<><>::
-node_2d.tscn::PackedScene::2503476438636324915::1745691073::0::1::::<><><>0<>0<><>::uid://ri0f7clblfy6::::res://node_2d.gd
-ui1.gd::GDScript::5799164444114965577::1745691477::0::1::::<>Control<><>0<>0<><>::
+node_2d.gd::GDScript/GDScript::1211253902006093227::1745691073::0::1::::<>Node2D<><>0<>0<><>::
+node_2d.tscn::PackedScene::2503476438636324915::1745693973::0::1::::<><><>0<>0<><>::uid://7n4uoiy21uh1::::res://icon.svg
+test.gd::GDScript::2943023811288291407::1745693716::0::1::::<>Node<><>0<>0<><>::
+ui1.gd::GDScript/GDScript::5799164444114965577::1745691477::0::1::::<>Control<><>0<>0<><>::
