@@ -5,13 +5,13 @@ var speed = 250
 func _physics_process(_delta):
 	var motion = Vector2()
 
-	if Input.is_action_pressed("Left"):
+	if Input.is_action_pressed("KEY_A"):
 		motion.x -= 1
-	if Input.is_action_pressed("Right"):
+	if Input.is_action_pressed("KEY_D"):
 		motion.x += 1
-	if Input.is_action_pressed("Up"):
+	if Input.is_action_pressed("KEY_W"):
 		motion.y -= 1
-	if Input.is_action_pressed("Down"):
+	if Input.is_action_pressed("Key_S"):
 		motion.y += 1
 
 	motion = motion.normalized() * speed
