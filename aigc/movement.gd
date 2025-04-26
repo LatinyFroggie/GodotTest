@@ -2,8 +2,8 @@ extends CharacterBody2D
 var speedMult = 300
 func _ready():
 	movement()
-	push_error("Bruh")
+	push_error("Bruh1")
 func movement():
-	push_error("Bruh")
-	if Input.is_key_pressed(KEY_W):
-		push_error("bruh")
+	push_error("Bruh2")
+	if Input.is_key_pressed(up):
+		push_error("bruh3")
